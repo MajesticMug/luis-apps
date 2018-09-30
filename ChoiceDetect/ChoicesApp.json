@@ -1,0 +1,241 @@
+{
+  "luis_schema_version": "3.1.0",
+  "versionId": "0.1",
+  "name": "AppTest",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "SelectChoices"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Choice",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "how about january, february and march",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 10,
+          "endPos": 16
+        },
+        {
+          "entity": "Choice",
+          "startPos": 19,
+          "endPos": 26
+        },
+        {
+          "entity": "Choice",
+          "startPos": 32,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "i want a & b & c & d",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Choice",
+          "startPos": 11,
+          "endPos": 11
+        },
+        {
+          "entity": "Choice",
+          "startPos": 15,
+          "endPos": 15
+        },
+        {
+          "entity": "Choice",
+          "startPos": 19,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i want a, b, c and d",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Choice",
+          "startPos": 10,
+          "endPos": 10
+        },
+        {
+          "entity": "Choice",
+          "startPos": 13,
+          "endPos": 13
+        },
+        {
+          "entity": "Choice",
+          "startPos": 19,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "let's go with montain valley and plains",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 14,
+          "endPos": 20
+        },
+        {
+          "entity": "Choice",
+          "startPos": 22,
+          "endPos": 27
+        },
+        {
+          "entity": "Choice",
+          "startPos": 33,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "let's go with red, blue and yellow",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 14,
+          "endPos": 16
+        },
+        {
+          "entity": "Choice",
+          "startPos": 19,
+          "endPos": 22
+        },
+        {
+          "entity": "Choice",
+          "startPos": 28,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "my choices are 1, 2, 3, and 4",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 15,
+          "endPos": 15
+        },
+        {
+          "entity": "Choice",
+          "startPos": 18,
+          "endPos": 18
+        },
+        {
+          "entity": "Choice",
+          "startPos": 21,
+          "endPos": 21
+        },
+        {
+          "entity": "Choice",
+          "startPos": 28,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "my choices are a, b, c and d",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 15,
+          "endPos": 15
+        },
+        {
+          "entity": "Choice",
+          "startPos": 18,
+          "endPos": 18
+        },
+        {
+          "entity": "Choice",
+          "startPos": 21,
+          "endPos": 21
+        },
+        {
+          "entity": "Choice",
+          "startPos": 27,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "my choices are axe, hammer and screwdriver",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 15,
+          "endPos": 17
+        },
+        {
+          "entity": "Choice",
+          "startPos": 20,
+          "endPos": 25
+        },
+        {
+          "entity": "Choice",
+          "startPos": 31,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "my choices are red & green & blue",
+      "intent": "SelectChoices",
+      "entities": [
+        {
+          "entity": "Choice",
+          "startPos": 15,
+          "endPos": 17
+        },
+        {
+          "entity": "Choice",
+          "startPos": 21,
+          "endPos": 25
+        },
+        {
+          "entity": "Choice",
+          "startPos": 29,
+          "endPos": 32
+        }
+      ]
+    }
+  ],
+  "settings": []
+}
